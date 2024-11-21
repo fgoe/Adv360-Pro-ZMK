@@ -14,7 +14,7 @@ macro_lefteck: macro_lefteck{
 compatible = "zmk,behavior-macro";
 label = "macro_lefteck";
 #binding-cells = <0>;
-bindings = <&kp RA(COMMA)>;
+bindings = <&kp RA(NON_US_BACKSLASH)>;
 };
 macro_tilde: macro_tilde{
 compatible = "zmk,behavior-macro";
